@@ -1,0 +1,22 @@
+{"space_invaders": [
+    {
+        "name": "UFO",
+        "description": "The mothership that comes from time to time and contains a bonus."
+    },
+    {
+        "name": "Large Invader",
+        "description": "The Large Invader has a wide, dome-shaped body with 2 eyes (which stretch farther outward than the other 2 invaders), a mouth, and 2 appendages. It's sprite is 8 pixels high and 12 pixels making it the easiest character to hit."
+    },
+    {
+        "name": "Medium Invader",
+        "description": "Medium Invader is one of the three classic invaders from the first game, and is the most recognizable Space Invader from it's signature appearance, as well as being Taito's mascot.The Medium Invader has a square body (judging by in-game graphical limitations), 4 appendages, 2 eyes, and 2 antennae. It's sprite is 8 pixels high and 11 pixels wide. "
+    },
+    {
+        "name": "Small Invader",
+        "description": "The Small Invader has a look very similar to that of an aquatic squid. It has a triangular shaped head with 2 eyes, a mouth(?), and 4 appendages. It's sprite is 8 pixels high and only 8 pixels wide, which added to the speed of the advanced stages of a game makes it the hardest character to hit."
+    },
+    {
+        "name": "Core Cannon",
+        "description": "The Core Cannon is the Protagonist in the Space Invaders series."
+    }
+]}

@@ -1,0 +1,28 @@
+<!--
+Immediately Invoked Function Expression (IIFE)
+vm View's Model
+ControllerAs syntax
+Named function
+ng-cloak is aimed at avoiding the display of uncompliled data. Must be put on each element extended by Angluar on the front page. See: https://docs.angularjs.org/api/ng/directive/ngCloak
+-->
+
+<!doctype html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
+    </head>
+    <body ng-app="app">
+
+        <div ng-controller="MainCtrl as main">
+            <p ng-cloak>{{ main.text }}</p>
+        </div>
+
+        <space-invader-list ng-cloak></space-invader-list>
+
+        <!-- Declaration of necess -->
+        <script src="app/app.module.js"></script>
+        <script src="app/app.js"></script>
+        <script src="app/components/spaceInvaderList/spaceInvaderList.directive.js"></script>
+        <script src="app/shared/services/spaceInvadersData.js"></script>
+    </body>
+</html>
