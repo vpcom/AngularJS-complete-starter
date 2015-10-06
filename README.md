@@ -22,3 +22,5 @@ Concerning good practices, we have:
 
 ## todo
 - Add the routing
+- Add more style
+- Build blocks
