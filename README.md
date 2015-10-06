@@ -1,4 +1,4 @@
-# AngularJS-complete-starter
+# AngularJS complete starter
 AngularJS complete base application with all good practices.
 
 PROJECT UNDER CONSTRUCTION
@@ -19,3 +19,6 @@ Concerning good practices, we have:
 - Dependency injection made separately for the sake of readability and for allowing non destructive minification.
 - A separate app.module.js fine to create the main module and inject dependencies.
 - JavaScript strict mode.
+
+## todo
+- Add the routing
