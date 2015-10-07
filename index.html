@@ -11,21 +11,29 @@ Notes        : ng-cloak is aimed at avoiding the display of uncompliled data.
 <!doctype html>
 <html>
     <head>
-        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.js"></script>
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     </head>
     <body ng-app="app">
 
-        <div ng-controller="MainCtrl as main">
-            <p ng-cloak>{{ main.text }}</p>
-        </div>
+        
+        <a ui-sref="home"></span> Home</a> - <a ui-sref="about">About</a>
 
-        <space-invader-list ng-cloak></space-invader-list>
-
-        <!-- Declaration of necess -->
+        <div ui-view></div>
+        
+        <!-- Declaration of scripts in the relevant order -->
         <script src="app/app.module.js"></script>
         <script src="app/app.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
+        <script src="app/app.route.js"></script>
+        <script src="app/components/home/home.route.js"></script>
+        <script src="app/components/about/about.route.js"></script>
+    
+        <script src="app/components/home/home.controller.js"></script>
         <script src="app/components/spaceInvaderList/spaceInvaderList.directive.js"></script>
         <script src="app/shared/services/spaceInvadersData.js"></script>
+    
+        <script src="app/components/about/about.controller.js"></script>
     </body>
 </html>

@@ -19,8 +19,9 @@ Concerning good practices, we have:
 - Dependency injection made separately for the sake of readability and for allowing non destructive minification.
 - A separate app.module.js fine to create the main module and inject dependencies.
 - JavaScript strict mode.
+- Routes are specified in each modules.
 
 ## todo
-- Add the routing
 - Add more style
 - Build blocks
+- Add the sub-routing

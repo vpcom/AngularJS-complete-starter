@@ -7,6 +7,6 @@ the app.
   'use strict';
 
   angular
-    .module('app', ['spaceInvadersData']);
+    .module('app', ['ui.router', 'spaceInvadersData']);
 })();
 
