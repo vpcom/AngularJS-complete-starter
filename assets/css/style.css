@@ -3,3 +3,16 @@ body {
     background-color: black;
     font-family: sans-serif;
 }
+
+header {
+    line-height: 60px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+footer {
+    border-top: 1px solid #ddd;
+    line-height: 40px;
+    text-align: center;
+}

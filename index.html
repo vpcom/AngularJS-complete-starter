@@ -13,13 +13,14 @@ Notes        : ng-cloak is aimed at avoiding the display of uncompliled data.
     <head>
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.js"></script>
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link rel="stylesheet" type="text/css" href="app/shared/navbar/navbar.css">
     </head>
     <body ng-app="app">
-
         
-        <a ui-sref="home"></span> Home</a> - <a ui-sref="about">About</a>
-
+        <header>Space Invaders Doc</header>
+        <navbar></navbar>
         <div ui-view></div>
+        <footer>Copyright &copy; 2015 vincentperrin.com</footer>
         
         <!-- Declaration of scripts in the relevant order -->
         <script src="app/app.module.js"></script>
@@ -32,6 +33,7 @@ Notes        : ng-cloak is aimed at avoiding the display of uncompliled data.
     
         <script src="app/components/home/home.controller.js"></script>
         <script src="app/components/spaceInvaderList/spaceInvaderList.directive.js"></script>
+        <script src="app/shared/navbar/navbar.directive.js"></script>
         <script src="app/shared/services/spaceInvadersData.js"></script>
     
         <script src="app/components/about/about.controller.js"></script>
