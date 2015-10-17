@@ -1,11 +1,11 @@
 <nav role="navigation">
     <div id="navbar">    
         <ul>
-            <li ng-class="{ active: isActive('/')}">
-                <a ui-sref="home" title="Home page" ></span> Home</a>
+            <li>
+                <a ui-sref="home" title="Home page" ng-class="{ active: isActive('/')}"></span> Home</a>
             </li>
-            <li ng-class="{ active: isActive('/about')}">
-                <a ui-sref="about" title="About this website" >About</a>
+            <li>
+                <a ui-sref="about" title="About this website" ng-class="{ active: isActive('/about')}">About</a>
             </li>
         </ul>
     </div>

@@ -30,7 +30,6 @@ Can be displaied by opening the index.html file in a browser. Because of the del
 
 ## todo
 - Blocks for improving the display of the main content
-- Is active feature on navbar
 - Online demo
 - More comments maybe
 - Live doc on the about page for those who prefer pictures
