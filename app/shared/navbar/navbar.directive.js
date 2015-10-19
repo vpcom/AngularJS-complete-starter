@@ -21,7 +21,6 @@
 
             // testing the location to set the active element
             $scope.isActive = function (currentLocation) {
-                console.log(currentLocation + " == " + $location.path());
                 return currentLocation == $location.path();
             };
 

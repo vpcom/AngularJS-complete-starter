@@ -12,12 +12,7 @@ the debugging.
 
   // Controller
   function MainCtrl () {
-    /* Capturing the context of this because it can change in a function.
-    vm represents the model's view. */
-    var vm = this; 
-
-    vm.text ="Some text";
-
+      
     //...
 
   }

@@ -28,9 +28,3 @@ This project aims at implementing many of AngularJS basic elements with all the 
 ## How to use it:
 Can be displaied by opening the index.html file in a browser. Because of the delivery of data using the $http method, it must be read from a server.
 
-## todo
-- Blocks for improving the display of the main content
-- Online demo
-- More comments maybe
-- Live doc on the about page for those who prefer pictures
-- Change che color of the UFO and the cannon

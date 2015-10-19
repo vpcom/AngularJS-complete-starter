@@ -1,7 +1,13 @@
-
-<div ng-repeat="si in vm.spaceInvaders" >
-    <h3>{{ si.name }}</h3>
-    <h4>Description</h4>
-    <img src="./assets/img/{{ si.img }}" />
-    <p>{{ si.description }}</p>
+<div id="space-container">
+    <div ng-repeat="si in vm.spaceInvaders" >
+        <div class="card">
+            <div class="card-head">
+                <img src="./assets/img/{{ si.img }}" />
+                <span>{{ si.name }}</span>
+            </div>
+            <div class="description">
+                <p>{{ si.description }}</p>
+            </div>
+        </div>
+    </div>
 </div>

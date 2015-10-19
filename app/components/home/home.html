@@ -1,9 +1,13 @@
-<div class="container">
 
-    <div ng-controller="MainCtrl as main">
-        <p ng-cloak>{{ main.text }}</p>
-    </div>
+<article>
+    <section>
+        <h1>The doc</h1>
+        <div ng-model="home">
+            <p ng-cloak>{{ home.text }}</p>
+        </div>
+    </section>
+    <section>
+        <space-invader-list></space-invader-list>
+    </section>
+</article>
 
-    <space-invader-list></space-invader-list>
-
-</div>
