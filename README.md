@@ -2,7 +2,7 @@
 AngularJS complete base application with all good practices.
 
 ## Demo
-Soon available
+vincentperrin.com/angularjs_complete_starter/
 
 ## Description
 This project aims at implementing many of AngularJS basic elements with all the good practice in order to help people learn AngularJS and also to provide a project that can be a good starter.
