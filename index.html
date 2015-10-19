@@ -3,15 +3,14 @@ Application  : AngularJS complete starter
 File         : index.html
 Description  : Base HTMl file that load the scripts and Angular
 Rights       : Copyright (c) 2015 vincentperrin.com - MIT License  
-Notes        : ng-cloak is aimed at avoiding the display of uncompliled data.
-               Must be put on each element extended by Angluar on the front page. 
-               See: https://docs.angularjs.org/api/ng/directive/ngCloak
 -->
  
 <!doctype html>
 <html>
     <head>
-        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.js"></script>
+        <!-- Mobile-friendly viewport -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
         <link rel="stylesheet" type="text/css" href="app/shared/navbar/navbar.css">
         <link rel="stylesheet" type="text/css" href="app/components/spaceInvaderList/space-invader-list.css">
@@ -27,6 +26,7 @@ Notes        : ng-cloak is aimed at avoiding the display of uncompliled data.
         <footer>Copyright &copy; 2015 vincentperrin.com</footer>
         
         <!-- Declaration of scripts in the relevant order -->
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.js"></script>
         <script src="app/app.module.js"></script>
         <script src="app/app.js"></script>
     
